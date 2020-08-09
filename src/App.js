@@ -1,8 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import BaseProject from './components/baseProject/baseProject';
 
-export default class App extends Component {
-  render() {
-    return <BaseProject />;
-  }
+export default function App() {
+  return <BaseProject />;
 }
